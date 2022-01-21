@@ -1,7 +1,6 @@
 #!/bin/bash
 #Purpose: What is variable.? How is help us in writing shell scripts
 
-
 A=10
 Ba=23
 BA=45
