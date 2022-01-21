@@ -1,7 +1,7 @@
 #!/bin/bash
 #Purpose: Function
 
-funciton Welcome () {
+function Welcome () {
 echo "SrimanIT courses $1"
 }
 
