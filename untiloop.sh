@@ -1,12 +1,9 @@
 #!/bin/bash
 #Purpose: Until Loop Example for Host Ping
 
-echo -e "Please Enter the IP Address to Ping: \c"
-read -r ip
-until ping -c 3 $ip
+i=5
+until [ $i -gt 15 ];
 do
-        echo "Host $ip is Still Down"
-        sleep 1
+echo "number $i"
+i=$(( i+1 ))
 done
-
-echo "Host $ip is Up Now"
